@@ -10,19 +10,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161108071613) do
+ActiveRecord::Schema.define(version: 20161108074744) do
 
   create_table "managers", force: :cascade do |t|
     t.string "name"
     t.string "email"
     t.string "office_number"
+    t.string "cell_phone_number"
   end
 
   create_table "songs", force: :cascade do |t|
-    t.string "title"
-    t.string "duration"
-    t.string "year_release"
-    t.string "album_title"
+    t.string  "title"
+    t.string  "duration"
+    t.string  "year_release"
+    t.string  "album_title"
+    t.integer "downloads"
   end
 
 end

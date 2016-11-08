@@ -3,8 +3,7 @@ class Manager < ActiveRecord::Migration[5.0]
         create_table :managers do |t|
             t.string :name
             t.string :email
-            t.string :office_number
-            t.string :cell_phone_number            
+            t.string :office_number           
         end
     end
   end
