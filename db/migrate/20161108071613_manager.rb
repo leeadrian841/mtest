@@ -4,6 +4,7 @@ class Manager < ActiveRecord::Migration[5.0]
             t.string :name
             t.string :email
             t.string :office_number
+            t.string :cell_phone_number            
         end
     end
   end
