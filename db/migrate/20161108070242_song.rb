@@ -5,7 +5,6 @@ class Song < ActiveRecord::Migration[5.0]
           t.string :duration
           t.string :year_release
           t.string :album_title
-          t.string :downloads
       end
   end
 end
